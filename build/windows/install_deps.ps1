@@ -19,6 +19,7 @@ mkdir $SOURCE_DIR -ErrorAction Ignore
 mkdir $BUILD_DIR -ErrorAction Ignore
 mkdir $INSTALL_DIR -ErrorAction Ignore
 mkdir $CACHE_DIR -ErrorAction Ignore
+$ProgressPreference = 'SilentlyContinue'
 
 # WebRTC の取得
 
